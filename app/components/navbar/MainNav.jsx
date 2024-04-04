@@ -63,8 +63,8 @@ export default function MainNav() {
                 height={200}
                 priority
                 className={clsx({
-                  " bg-transparent  md:py-1 md:px-1":isScrolled,
-                  "bg-neutral-800 shadow-inner  shadow-neutral-700 rounded-lg  py-2 px-2 transition-all duration-100 ease-in-out":!isScrolled
+                  " bg-transparent ":isScrolled,
+                  "bg-neutral-800 shadow-inner  shadow-neutral-700 rounded-lg ":!isScrolled
                 
                 })}
                 
