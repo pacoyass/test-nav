@@ -20,7 +20,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body
        className={cn(
-        "min-h-svh bg-background min-w-svw bg-gradient-to-b from-zinc-800 text-zinc-300  to-zinc-950  shadow-inner shadow-zinc-500 antialiased",
+        "min-h-svh bg-background  min-w-svw w-svw  bg-gradient-to-b from-zinc-800 text-zinc-300  to-zinc-950  shadow-inner shadow-zinc-500 antialiased",
         cinzel_decorative.className
       )}
      >

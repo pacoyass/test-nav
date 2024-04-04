@@ -5,10 +5,10 @@ import { Separator } from "@/components/ui/separator";
 
 export default function Home() {
   return (
-<section className="min-h-svh h-[100%] ">
+<section className="">
 
-<div className="">
-{/* <Slider/> */}
+ <div className="">
+ <Slider/> 
 
 </div>
 
@@ -17,7 +17,7 @@ export default function Home() {
 
 <div className="h-[100svh]">
 
-</div>
+</div> 
 {/* <div className="h-[100svh] ">
 
 </div>  */}
