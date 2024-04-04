@@ -56,7 +56,7 @@ export default function MainNav() {
         <div className=" mx-auto px-3">
           <div className="flex items-center justify-between  md:py-1 md:px-1">
           
-              {/* <Image
+               <Image
                 src="/logo-1.png"
                 alt="logo"
                 width={200}
@@ -64,11 +64,11 @@ export default function MainNav() {
                 priority={true}
                 className={clsx({
                   " bg-transparent  md:py-1 md:px-1":isScrolled,
-                  "bg-neutral-800 shadow-inner shadow-neutral-700 rounded-lg  py-2 px-2 transition-all duration-100 ease-in-out":!isScrolled
+                  "bg-neutral-800 shadow-inner h-auto w-auto shadow-neutral-700 rounded-lg  py-2 px-2 transition-all duration-100 ease-in-out":!isScrolled
                 
                 })}
                 
-              /> */}
+              /> 
             
           
                  <Navlink/>
