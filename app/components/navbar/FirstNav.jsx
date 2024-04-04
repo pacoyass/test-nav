@@ -41,10 +41,10 @@ export default function FirstNav() {
      <p className="text-xs 12pro:tracking-widest  fold:tracking-widest  xr:tracking-widest s8:tracking-wider leading-relaxed sm:leading-normal sm:text-sm text-center font-extralight lg:text-pretty md:font-light md:tracking-wide   md:text-sm lg:text-lg 2xl:font-bold 2xl:text-xl 2xl:tracking-widest 2xl:capitalize">123 , Rue Kasr ElBadia 20900,Casablanca promotions.</p> 
         </div>
         <div className="flex items-center justify-center  gap-2">
-            <FiPhone size={30} />
-            <p className="tracking-widest text-base  font-light md:text-sm lg:text-lg 2xl:font-bold 2xl:text-xl">(+212)-661-28-34-77</p>
+            <FiPhone size={30}  className="self-start  md:self-center"/>
+            <p className="tracking-widest text-center text-base  font-light md:text-sm lg:text-lg 2xl:font-bold 2xl:text-xl">(+212)-661-28-34-77</p>
         </div>
-        <div className="flex items-center gap-2 2xl:gap-5">
+        <div className="flex items-center justify-center gap-2 2xl:gap-5">
             <FiFacebook size={35}/>
             <FiInstagram size={35}/>
             <FiTwitter size={35}/>
