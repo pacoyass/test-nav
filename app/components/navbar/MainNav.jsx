@@ -60,7 +60,7 @@ export default function MainNav() {
                 src="/logo-1.png"
                 alt="logo"
                 width={200}
-                height={150}
+                height={200}
                 priority
                 className={clsx({
                   " bg-transparent  md:py-1 md:px-1":isScrolled,
