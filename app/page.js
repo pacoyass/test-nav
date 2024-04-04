@@ -8,7 +8,7 @@ export default function Home() {
 <section className="min-h-svh h-[100%] ">
 
 <div className="">
-<Slider/>
+{/* <Slider/> */}
 
 </div>
 
