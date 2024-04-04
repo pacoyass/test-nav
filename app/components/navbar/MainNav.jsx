@@ -37,7 +37,7 @@ export default function MainNav() {
     >
       <nav
         className={clsx(
-            "py-2 px-2 md:py-1 md:px-1 w-full md:max-w-screen mx-auto transition-all duration-0 ease-in-out",
+            "py-2 px-2 md:py-1 md:px-1 w-screen md:max-w-screen mx-auto transition-all duration-0 ease-in-out",
             {
               "fixed top-0 z-10 md:py-3 duo:py-5 2xl:py-2 2xl:px-2 bg-gradient-to-r from-neutral-700 to-neutral-950 shadow-inner  shadow-neutral-700":
                 isScrolled,
@@ -72,9 +72,12 @@ export default function MainNav() {
   
             <Navlink/>
             <div
-              className={`${
-                isScrolled ? "text-neutral-400  " : "text-neutral-500"
-              } md:hidden `}
+              className={clsx(
+                "md:hidden",
+                {
+"text-neutral-400  ":isScrolled,
+"text-neutral-500": !isScrolled
+              })}
             >
               <TiThMenuOutline size={40} />
               {/* <FiMenu size={35}/> */}
