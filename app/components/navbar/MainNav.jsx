@@ -54,7 +54,7 @@ export default function MainNav() {
         //     `}
       >
         <div className=" mx-auto px-3">
-          <div className="flex items-center justify-between  md:py-1 md:px-1">
+          <div className="flex items-center justify-between  ">
           
               <Image
                 src="/logo-1.png"
