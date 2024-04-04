@@ -61,21 +61,16 @@ export default function MainNav() {
                 alt="logo"
                 width={200}
                 height={150}
-                priority={true}
+                priority
                 className={clsx({
                   " bg-transparent  md:py-1 md:px-1":isScrolled,
-                  "bg-neutral-800 shadow-inner h-auto w-auto shadow-neutral-700 rounded-lg  py-2 px-2 transition-all duration-100 ease-in-out":!isScrolled
+                  "bg-neutral-800 shadow-inner  shadow-neutral-700 rounded-lg  py-2 px-2 transition-all duration-100 ease-in-out":!isScrolled
                 
                 })}
                 
               /> 
-            
-          <div className="h-auto w-auto">
+  
             <Navlink/>
-          </div>
-                 
-            
-       
             <div
               className={`${
                 isScrolled ? "text-neutral-400  " : "text-neutral-500"
