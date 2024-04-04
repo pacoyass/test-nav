@@ -25,10 +25,10 @@ export default function MainNav() {
 
   return (
     <section
-    // className={clsx({
-    //     "mb-16 fold:mb-12 duo:mb-10 md:mb-12": isScrolled,
-    //     "mb-56 md:mb-28 lg:mb-28 2xl:mb-24": !isScrolled
-    //   })}
+    className={clsx({
+        "mb-16 fold:mb-12 duo:mb-10 md:mb-12": isScrolled,
+        "mb-56 md:mb-28 lg:mb-28 2xl:mb-24": !isScrolled
+      })}
     //   className={` ${
     //     isScrolled
     //       ? "mb-16 fold:mb-12 duo:mb-10 md:mb-12"
@@ -64,9 +64,10 @@ export default function MainNav() {
                 priority={true}
                 className={clsx({
                   " bg-transparent  md:py-1 md:px-1":isScrolled,
-                  "bg-neutral-800 shadow-inner shadow-neutral-700 rounded-lg  py-2 px-2 transition-all duration-100 ease-in-out":!isScrolled
+                  "bg-neutral-800 shadow-inner shadow-neutral-700 rounded-lg   transition-all duration-100 ease-in-out":!isScrolled
                 
                 })}
+                // py-2 px-2
               />
             </div>
           <Navlink/>
