@@ -62,11 +62,11 @@ export default function MainNav() {
                 width={150}
                 height={150}
                 priority={true}
-                className={
-                  isScrolled
-                    ? " bg-transparent  md:py-1 md:px-1"
-                    : "bg-neutral-800 shadow-inner shadow-neutral-700 rounded-lg  py-2 px-2 transition-all duration-100 ease-in-out"
-                }
+                // className={
+                //   isScrolled
+                //     ? " bg-transparent  md:py-1 md:px-1"
+                //     : "bg-neutral-800 shadow-inner shadow-neutral-700 rounded-lg  py-2 px-2 transition-all duration-100 ease-in-out"
+                // }
               />
             </div>
           <Navlink/>
