@@ -1,5 +1,5 @@
 "use client";
-import React, { useEffect, useState } from "react";
+import React, { Suspense, useEffect, useState } from "react";
 import Image from "next/image";
 import { FiMenu } from "react-icons/fi";
 import { TiThMenuOutline } from "react-icons/ti";
@@ -41,11 +41,11 @@ export default function MainNav() {
             {
               "fixed top-0 z-10 md:py-3 duo:py-5 2xl:py-2 2xl:px-2 bg-gradient-to-r from-neutral-700 to-neutral-950 shadow-inner  shadow-neutral-700":
                 isScrolled,
-              "absolute py-5 md:py-3 2xl:py-2 2xl:px-2 bg-gradient-to-r from-neutral-700 to-neutral-950 shadow-inner shadow-neutral-700 ":
+              "absolute py-5 md:py-3 2xl:py-2 2xl:px-2 bg-gradient-to-r from-neutral-700 to-neutral-950 shadow-inner shadow-neutral-700 top-36 md:top-14 lg:top-16 z-10":
                 !isScrolled,
             }
           )}
-        // className={`top-36 md:top-14 lg:top-16 z-10
+        // className={`
         //     ${
         //       isScrolled
         //         ? "fixed top-0 z-10  md:py-3 duo:py-5 2xl:py-2 2xl:px-2 bg-gradient-to-r  from-neutral-700 to-neutral-950 shadow-inner shadow-neutral-700"
@@ -70,7 +70,10 @@ export default function MainNav() {
                 
               />
             </div>
-          <Navlink/>
+            <Suspense>
+                 <Navlink/>
+            </Suspense>
+       
             <div
               className={`${
                 isScrolled ? "text-neutral-400  " : "text-neutral-500"
