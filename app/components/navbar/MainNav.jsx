@@ -70,8 +70,10 @@ export default function MainNav() {
                 
               /> 
             
-          
-                 <Navlink/>
+          <div className="h-auto w-auto">
+            <Navlink/>
+          </div>
+                 
             
        
             <div
