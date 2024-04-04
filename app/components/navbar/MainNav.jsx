@@ -25,10 +25,10 @@ export default function MainNav() {
 
   return (
     <section
-    className={clsx({
-        "mb-16 fold:mb-12 duo:mb-10 md:mb-12": isScrolled,
-        "mb-56 md:mb-28 lg:mb-28 2xl:mb-24": !isScrolled
-      })}
+    // className={clsx({
+    //     "mb-16 fold:mb-12 duo:mb-10 md:mb-12": isScrolled,
+    //     "mb-56 md:mb-28 lg:mb-28 2xl:mb-24": !isScrolled
+    //   })}
     //   className={` ${
     //     isScrolled
     //       ? "mb-16 fold:mb-12 duo:mb-10 md:mb-12"
@@ -64,7 +64,7 @@ export default function MainNav() {
                 priority
                 className={clsx({
                   " bg-transparent ":isScrolled,
-                  "bg-neutral-800 shadow-inner  shadow-neutral-700 rounded-lg ":!isScrolled
+                  "bg-neutral-800 shadow-inner py-2 px-2 shadow-neutral-700 rounded-lg ":!isScrolled
                 
                 })}
                 
