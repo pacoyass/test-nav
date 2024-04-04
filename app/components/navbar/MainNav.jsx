@@ -39,13 +39,13 @@ export default function MainNav() {
         className={clsx(
             "py-2 px-2 md:py-1 md:px-1 w-full md:max-w-screen mx-auto transition-all duration-0 ease-in-out",
             {
-              "fixed top-0 z-10 md:py-3 duo:py-5 2xl:py-2 2xl:px-2 bg-gradient-to-r from-neutral-700 to-neutral-950 shadow-inner shadow-neutral-700":
+              "fixed top-0 z-10  bg-gradient-to-r from-neutral-700 to-neutral-950 shadow-inner shadow-neutral-700":
                 isScrolled,
-              "absolute py-5 md:py-3 2xl:py-2 2xl:px-2 bg-gradient-to-r from-neutral-700 to-neutral-950 shadow-inner shadow-neutral-700 top-36 md:top-14 lg:top-16 z-10":
+              "absolute  bg-gradient-to-r from-neutral-700 to-neutral-950 shadow-inner shadow-neutral-700 top-36 md:top-14 lg:top-16 z-10":
                 !isScrolled,
             }
           )}
-        // className={`
+        // className={`md:py-3 duo:py-5 2xl:py-2 2xl:px-2           py-5 md:py-3 2xl:py-2 2xl:px-2
         //     ${
         //       isScrolled
         //         ? "fixed top-0 z-10  md:py-3 duo:py-5 2xl:py-2 2xl:px-2 bg-gradient-to-r  from-neutral-700 to-neutral-950 shadow-inner shadow-neutral-700"
@@ -64,10 +64,10 @@ export default function MainNav() {
                 priority={true}
                 className={clsx({
                   " bg-transparent  md:py-1 md:px-1":isScrolled,
-                  "bg-neutral-800 shadow-inner shadow-neutral-700 rounded-lg   transition-all duration-100 ease-in-out":!isScrolled
+                  "bg-neutral-800 shadow-inner shadow-neutral-700 rounded-lg  py-2 px-2 transition-all duration-100 ease-in-out":!isScrolled
                 
                 })}
-                // py-2 px-2
+                
               />
             </div>
           <Navlink/>
