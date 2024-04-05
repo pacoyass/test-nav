@@ -36,22 +36,22 @@ export default function MainNav() {
     //   }`}
     >
       <nav
-        // className={clsx(
-        //     "py-2 px-2 md:py-1 md:px-1 w-screen md:max-w-screen mx-auto transition-all duration-0 ease-in-out",
-        //     {
-        //       "fixed top-0 z-10 md:py-3 duo:py-5 2xl:py-2 2xl:px-2 bg-gradient-to-r from-neutral-700 to-neutral-950 shadow-inner  shadow-neutral-700":
-        //         isScrolled,
-        //       "absolute py-5 md:py-3 2xl:py-2 2xl:px-2 bg-gradient-to-r from-neutral-700 to-neutral-950 shadow-inner shadow-neutral-700 top-36 md:top-14 lg:top-16 z-10":
-        //         !isScrolled,
-        //     }
-        //   )}
-        className={`
-            ${
-              isScrolled
-                ? "fixed top-0 z-10  md:py-3 duo:py-5 2xl:py-2 2xl:px-2 bg-gradient-to-r  from-neutral-700 to-neutral-950 shadow-inner shadow-neutral-700"
-                : "absolute  py-5 md:py-3 2xl:py-2 2xl:px-2 bg-gradient-to-r from-neutral-700 to-neutral-950 shadow-inner shadow-neutral-700 top-36 md:top-14 lg:top-16 z-10"
-            } py-2 px-2 md:py-1 md:px-1  w-svw  mx-auto transition-all duration-0 ease-in-out 
-            `}
+        className={clsx(
+            "py-2 px-2 md:py-1 md:px-1 w-screen md:max-w-screen mx-auto transition-all duration-0 ease-in-out",
+            {
+              "fixed top-0 z-10 md:py-3 duo:py-5 2xl:py-2 2xl:px-2 bg-gradient-to-r from-neutral-700 to-neutral-950 shadow-inner  shadow-neutral-700":
+                isScrolled,
+              "absolute py-5 md:py-3 2xl:py-2 2xl:px-2 bg-gradient-to-r from-neutral-700 to-neutral-950 shadow-inner shadow-neutral-700 top-36 md:top-14 lg:top-16 z-10":
+                !isScrolled,
+            }
+          )}
+        // className={`
+        //     ${
+        //       isScrolled
+        //         ? "fixed top-0 z-10  md:py-3 duo:py-5 2xl:py-2 2xl:px-2 bg-gradient-to-r  from-neutral-700 to-neutral-950 shadow-inner shadow-neutral-700"
+        //         : "absolute  py-5 md:py-3 2xl:py-2 2xl:px-2 bg-gradient-to-r from-neutral-700 to-neutral-950 shadow-inner shadow-neutral-700 top-36 md:top-14 lg:top-16 z-10"
+        //     } py-2 px-2 md:py-1 md:px-1  w-svw  mx-auto transition-all duration-0 ease-in-out 
+        //     `}
       >
         <div className=" mx-auto px-3">
           <div className="flex items-center justify-between  md:py-1 md:px-1">
