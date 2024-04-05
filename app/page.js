@@ -14,13 +14,13 @@ export default function Home() {
  <Separator  className="w-[90%] mx-auto my-4 rounded-2xl bg-neutral-700"/> 
 
  <section className="flex items-center justify-center py-20">
-<h1>Menus</h1>
+<h1 className="text-3xl md:text-5xl lg:text-7xl 2xl:text-9xl">Menus</h1>
 </section>  
 <section className="flex items-center justify-center py-20">
-<h1>qdldqdlq qdlql</h1>
+<h1 className="text-3xl md:text-5xl lg:text-7xl 2xl:text-9xl">Promotions</h1>
 </section> 
 <section className="flex items-center justify-center py-20">
-<h1>qdldqdlq qdlql</h1>
+<h1 className="text-3xl md:text-5xl lg:text-7xl 2xl:text-9xl">Livraison</h1>
 </section> 
 </main>
   );

@@ -27,7 +27,7 @@ export default function MainNav() {
     <section
     className={clsx({
         "mb-16 fold:mb-12 duo:mb-10 md:mb-12": isScrolled,
-        "mb-56 md:mb-28 lg:mb-28 2xl:mb-24": !isScrolled
+        "mb-56 md:mb-28 lg:mb-28 2xl:mb-28": !isScrolled
       })}
     //   className={` ${
     //     isScrolled
