@@ -19,7 +19,7 @@ export default function FirstNav() {
   return (
     <nav  
     className={clsx(
-         "transition-all duration-0 ease-in-out w-screen md:max-w-screen mx-auto shadow-inner shadow-neutral-700 text-neutral-300"
+         "transition-all duration-0 ease-in-out w-svw mx-auto shadow-inner shadow-neutral-700 text-neutral-300"
     ,{
         "hidden": isScrolled,
         "absolute flex flex-col md:flex-row gap-2 md:gap-0 items-center justify-center md:justify-between duo:py-5 lg:py-5 lg:px-5 py-3 px-3 bg-gradient-to-r from-neutral-950 to-neutral-800": !isScrolled

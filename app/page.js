@@ -5,22 +5,23 @@ import { Separator } from "@/components/ui/separator";
 
 export default function Home() {
   return (
-<section className="">
+<main className="">
 
- <div className="">
- <Slider/> 
-
-</div>
-
-  <Separator  className="w-[90%] mx-auto my-4 rounded-2xl bg-neutral-700"/>
-
-
-<div className="h-[100svh]">
-
-</div> 
-{/* <div className="h-[100svh] ">
-
-</div>  */}
+ <section className="">
+  <Slider/> 
 </section>
+
+ <Separator  className="w-[90%] mx-auto my-4 rounded-2xl bg-neutral-700"/> 
+
+ <section className="flex items-center justify-center py-20">
+<h1>Menus</h1>
+</section>  
+<section className="flex items-center justify-center py-20">
+<h1>qdldqdlq qdlql</h1>
+</section> 
+<section className="flex items-center justify-center py-20">
+<h1>qdldqdlq qdlql</h1>
+</section> 
+</main>
   );
 }

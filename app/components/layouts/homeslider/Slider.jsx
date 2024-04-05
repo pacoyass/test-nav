@@ -33,7 +33,7 @@ import { Button } from "@/components/ui/button";
 
 export default function Slider() {
   return (
-    <div className="swiper-container h-[70svh]  ">
+    <div className="swiper-container h-[70svh]">
       <Swiper
         effect="fade"
         centeredSlides={true}
@@ -119,108 +119,67 @@ export default function Slider() {
               src="/slide-1.jpg"
               width={1500}
               height={1024}
-              priority={true}
+              priority
+              alt="slider-1"
               style={{ width: "100%", height: "100%" }}
             />
 
-<div className="absolute bottom-12 left-0 right-0 flex  justify-center items-center gap-5 md:bottom-16 md:flex-row md:gap-20 ">
-              <Button className="text-gray-400 font-bold text-lg tracking-wide bg-gray-700 hover:bg-gray-400 hover:text-gray-700 rounded-3xl   py-6 px-6">
-                RESTAURANTS
-              </Button>
-              <Button className="text-gray-400 font-bold text-lg tracking-wide bg-gray-700 hover:bg-gray-400 hover:text-gray-700 rounded-3xl   py-6 px-6 ">
-                MENUS
-              </Button>
-            </div>
           </SwiperSlide>
           <SwiperSlide className="swiper-slide relative flex flex-col justify-center items-center pb-2">
             <Image
               src="/slide-2.jpg"
               width={1500}
               height={1024}
-              priority={true}
+              priority
+              alt="slider-2"
               style={{ width: "100%", height: "100%" }}
             />
 
-<div className="absolute bottom-12 left-0 right-0 flex  justify-center items-center gap-5 md:bottom-16 md:flex-row md:gap-20 ">
-              <Button className="text-gray-400 font-bold text-lg tracking-wide bg-gray-700 hover:bg-gray-400 hover:text-gray-700 rounded-3xl   py-6 px-6">
-                PROMOTIONS
-              </Button>
-              <Button className="text-gray-400 font-bold text-lg tracking-wide bg-gray-700 hover:bg-gray-400 hover:text-gray-700 rounded-3xl   py-6 px-6 ">
-                ORDER NOW
-              </Button>
-              
-            </div>
+
           </SwiperSlide>
           <SwiperSlide className="swiper-slide relative flex flex-col justify-center items-center pb-2">
             <Image
               src="/slide-3.jpg"
               width={1500}
               height={1024}
-              priority={true}
+              priority
+              alt="slider-3"
               style={{ width: "100%", height: "100%" }}
             />
 
-<div className="absolute bottom-12 left-0 right-0 flex  justify-center items-center gap-5 md:bottom-16 md:flex-row md:gap-20 ">
-              <Button className="text-gray-400 font-bold text-base tracking-wide bg-gray-700 hover:bg-gray-400 hover:text-gray-700 rounded-3xl   py-6 px-6">
-                MAKE YOUR ORDER
-              </Button>
-              <Button className="text-gray-400 font-bold text-base tracking-wide bg-gray-700 hover:bg-gray-400 hover:text-gray-700 rounded-3xl   py-6 px-6 ">
-                LOCALISATION
-              </Button>
-            </div>
           </SwiperSlide>
           <SwiperSlide className="swiper-slide relative flex flex-col justify-center items-center pb-2">
             <Image
               src="/slide-4.jpg"
               width={1500}
               height={1024}
-              priority={true}
+              priority
+              alt="slider-4"
               style={{ width: "100%", height: "100%" }}
             />
- <div className="absolute bottom-12 left-0 right-0 flex  justify-center items-center gap-5 md:bottom-16 md:flex-row md:gap-20 ">
-              <Button className="text-gray-400 font-bold text-lg tracking-wide bg-gray-700 hover:bg-gray-400 hover:text-gray-700 rounded-3xl   py-6 px-6">
-                RESTAURANTS
-              </Button>
-              <Button className="text-gray-400 font-bold text-lg tracking-wide bg-gray-700 hover:bg-gray-400 hover:text-gray-700 rounded-3xl   py-6 px-6 ">
-                ORDER NOW
-              </Button>
-            </div>
+ 
           </SwiperSlide>
           <SwiperSlide className="swiper-slide relative flex flex-col justify-center items-center pb-2">
             <Image
               src="/slide-5.jpg"
               width={1500}
               height={1024}
-              priority={true}
+              priority
+              alt="slider-5"
               style={{ width: "100%", height: "100%" }}
             />
 
-<div className="absolute bottom-12 left-0 right-0 flex  justify-center items-center gap-5 md:bottom-16 md:flex-row md:gap-20 ">
-              <Button className="text-gray-400 font-bold text-lg tracking-wide bg-gray-700 hover:bg-gray-400 hover:text-gray-700 rounded-3xl   py-6 px-6">
-                RESTAURANTS
-              </Button>
-              <Button className="text-gray-400 font-bold text-lg tracking-wide bg-gray-700 hover:bg-gray-400 hover:text-gray-700 rounded-3xl   py-6 px-6 ">
-                ORDER NOW
-              </Button>
-            </div>
           </SwiperSlide>
           <SwiperSlide className="swiper-slide relative flex flex-col justify-center items-center pb-2">
             <Image
               src="/slide-6.jpg"
               width={1500}
               height={1024}
-              priority={true}
+              priority
+              alt="slider-6"
               style={{ width: "100%", height: "100%" }}
             />
 
-            <div className="absolute bottom-12 left-0 right-0 flex  justify-center items-center gap-5 md:bottom-16 md:flex-row md:gap-20 ">
-              <Button className="text-gray-400 font-bold text-lg tracking-wide bg-gray-700 hover:bg-gray-400 hover:text-gray-700 rounded-3xl   py-6 px-6">
-                RESTAURANTS
-              </Button>
-              <Button className="text-gray-400 font-bold text-lg tracking-wide bg-gray-700 hover:bg-gray-400 hover:text-gray-700 rounded-3xl   py-6 px-6 ">
-                ORDER NOW
-              </Button>
-            </div>
           </SwiperSlide> 
         
 
